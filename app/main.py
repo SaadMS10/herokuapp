@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import webbrowser
-
-
-import webbrowser
 import time
 from pynput.mouse import Button, Controller
 from flask import Flask ,render_template  
 app = Flask(__name__) 
-
-
 
 @app.route('/')
 def index():
